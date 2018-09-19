@@ -1,0 +1,307 @@
+.navbar-nav{
+    margin-left: 350px;
+}
+.navbar-brand{
+   margin-left: 400px; 
+}
+.nav-item{
+    padding-left: 30px;
+    color: white;
+}
+.home{
+    background-image: url(../images/home.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    overflow-y: auto;
+    height: 817px;
+}
+.btn {
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 14px 28px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+    margin-top: 12px;
+    margin-left: 160px;
+    width: 40%;
+}
+.info {background-color: #2196F3;} /* Blue */
+.info:hover {background: #0b7dda;}
+    * {
+    box-sizing: border-box;
+}
+.home .container{
+    height: 400px;
+    width: 631px;
+    position: relative;
+    border: 5px solid green;
+    margin-top: 170px;
+}
+.home .container h1{
+    color: white;
+    font-size: 60px;
+    padding-top: 30px;
+    text-align: center;
+}
+hr.new{
+    border: 2px solid green;
+/*    border-radius: 1px;*/
+    margin-top: 40px;
+}
+#san{
+    color: cornflowerblue;
+    text-align: center;
+    padding-top: 40px;
+}
+/* Create two equal columns that floats next to each other */
+.column-1 {
+    float: left;
+    width: 60%;
+    padding: 10px;
+    height: 600px; /* Should be removed. Only for demonstration */
+}
+.column-1 h1{
+    margin-left: 400px; 
+}
+.column-1 h6{
+    margin-left: 400px; 
+    margin-top: 100px;
+    color: darkblue;
+}
+.column-1 p{
+    margin-left: 400px; 
+}
+.column-2{
+    float: left;
+    width: 40%;
+    padding: 10px;
+    height: 600px 
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.gathering{
+     background-image: url(../images/gathering.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    overflow-y: auto;
+    height: 617px;
+}
+.network{
+    height: 600px;
+    background-color: cornflowerblue;
+    color: white;
+}
+.network h5{
+     margin-left: 300px; 
+    padding-top: 100px;
+    color: black;
+}
+.network h1{
+    margin-left: 300px;
+}
+.network p{
+    margin-left: 300px;
+}
+.team-section{
+    height: 667px;
+}
+.team-section h1{
+    padding-left: 650px;
+}
+.column {
+  margin-bottom: 16px;
+    padding: 10px;
+     width:100%
+  float:left;
+  position:relative;
+  overflow:hidden
+}
+.row .left{
+     margin-left: 300px;
+}
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.images{
+    background-color: lightgreen;
+    height:1307px;
+}
+.images h1{
+    margin-left: 730px; 
+    padding-top: 80px;
+    color: white;
+}
+.fixed{
+     background-image: url(../images/audience.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    overflow-y: auto;
+    height: 617px;
+}
+.images .card {
+     width:65%;
+  float:left;
+  position:relative;
+  overflow:hidden;
+   
+}
+.images .left{
+     margin-left: 250px;
+}
+.images .middle{
+    margin-left: 130px;
+  
+}
+.images .card a{
+    padding-left: 20px;
+    text-decoration: none;
+}
+.images .card .fa-heart{
+    margin-left: 90px;
+}
+/* Add some shadows to create a card effect */
+.images .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.images .container {
+    padding: 0 16px;
+}
+
+/* Clear floats */
+.images .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.images .title {
+    color: grey;
+}
+.sponsors{
+    height: 553px;
+}
+.sponsors h1{
+    margin-left: 730px; 
+    padding-top: 60px;
+    color: black; 
+}
+ .sponsors .right{
+     margin-left: 90px;
+}
+.subscribe{
+    height: 600px;
+}
+.subscribe h1{
+     margin-left: 400px;
+}
+.subscribe span h6{
+    margin-left: 400px; 
+    padding-top: 120px;
+    color: blue;
+}
+.subscribe p{
+   margin-left: 400px; 
+}
+.subscribe form{
+    margin-left: 400px;
+}
+.subscribe form input{
+    width: 40%;
+    background-color: lightgray;
+}
+.subscribe form #submit{
+    width: 20%;
+    background-color: blue;
+    color: white;
+}
+.contact{
+    height: 544px;
+    background-color: cornflowerblue;
+    padding-top: 100px;
+    color: white;
+}
+.contact .con{
+    padding-left: 200px;
+}
+.contact .address{
+    padding-left: 60px;
+}
+.contact .call{
+    padding-left: 35px;
+}
+.contact #form input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    width: 60%;
+    margin-bottom: 12px;
+}
+.contact #form textarea{
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    color: white;
+}
+.contact #form #submit{
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+footer{
+    height: 99px;
+    background-color: black;
+   padding-left: 580px;
+    padding-top: 20px;
+    color: white;
+}
+.social-meida{
+    margin-left: 100px;
+}
+.fixed .container{
+    height: 300px;
+    width: 631px;
+    position: relative;
+    border: 5px solid green;
+    margin-top: 170px;
+}
+.fixed .container h1{
+    color: white;
+/*    font-size: 60px;*/
+    padding-top: 30px;
+    text-align: center;
+}
+.fixed .btn{
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 14px 28px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+    margin-top: 83px;
+    margin-left: 160px;
+    width: 40%;
+}
+.image-brain{
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.envelope{
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.con-us{
+    margin-top: 50px;
+    margin-left: 40px;
+}
